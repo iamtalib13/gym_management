@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-16 22:28:18.944760",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "section_break_bkcmf",
+  "first_name",
+  "column_break_xd5iv",
+  "last_name",
+  "column_break_xlmxs",
+  "full_name",
+  "section_break_usq4q",
+  "date_of_birth",
+  "column_break_zc0ho",
+  "gender",
+  "column_break_nylrh",
+  "email",
+  "section_break_yor6e",
+  "city",
+  "column_break_tjhoy",
+  "phone",
+  "column_break_rr5ok",
+  "alternate_phone",
+  "section_break_jc8dl",
+  "address",
+  "joining_tab",
+  "date_of_joining",
+  "end_date",
+  "kyc_tab",
+  "aadhar_number",
+  "salary_tab",
+  "monthly_payout"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Trainer ID",
+   "options": "Trainer-.##."
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "column_break_xd5iv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "column_break_xlmxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "section_break_usq4q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "column_break_zc0ho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "column_break_nylrh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "section_break_yor6e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "column_break_tjhoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "length": 11
+  },
+  {
+   "fieldname": "column_break_rr5ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alternate_phone",
+   "fieldtype": "Data",
+   "label": "Alternate Phone"
+  },
+  {
+   "fieldname": "section_break_jc8dl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "joining_tab",
+   "fieldtype": "Tab Break",
+   "label": "Joining"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date of Joining"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "section_break_bkcmf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kyc_tab",
+   "fieldtype": "Tab Break",
+   "label": "KYC"
+  },
+  {
+   "fieldname": "aadhar_number",
+   "fieldtype": "Data",
+   "label": "Aadhar Number"
+  },
+  {
+   "fieldname": "salary_tab",
+   "fieldtype": "Tab Break",
+   "label": "Salary"
+  },
+  {
+   "fieldname": "monthly_payout",
+   "fieldtype": "Currency",
+   "label": "Monthly Payout"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-16 22:33:16.360491",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Trainers",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name",
+ "track_changes": 1
+}

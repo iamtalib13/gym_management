@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-15 22:40:57.044134",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "status",
+  "naming_series",
+  "column_break_xd5iv",
+  "last_name",
+  "column_break_xlmxs",
+  "full_name",
+  "section_break_usq4q",
+  "date_of_birth",
+  "column_break_zc0ho",
+  "gender",
+  "column_break_nylrh",
+  "email",
+  "section_break_yor6e",
+  "city",
+  "column_break_tjhoy",
+  "phone",
+  "column_break_rr5ok",
+  "alternate_phone",
+  "section_break_jc8dl",
+  "address",
+  "section_break_u3zzh",
+  "membership_start_date",
+  "column_break_rqtow",
+  "membership_end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "length": 12
+  },
+  {
+   "fieldname": "alternate_phone",
+   "fieldtype": "Data",
+   "label": "Alternate Phone"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "membership_start_date",
+   "fieldtype": "Date",
+   "label": "Membership Start Date"
+  },
+  {
+   "fieldname": "membership_end_date",
+   "fieldtype": "Date",
+   "label": "Membership End Date"
+  },
+  {
+   "fieldname": "column_break_xd5iv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xlmxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_usq4q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zc0ho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_yor6e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tjhoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rr5ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jc8dl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nylrh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rqtow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_u3zzh",
+   "fieldtype": "Tab Break",
+   "label": "Membership Dates"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Member ID",
+   "options": "Member-.####."
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nNon-Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Member Attendance",
+   "link_fieldname": "member_id"
+  }
+ ],
+ "modified": "2023-07-01 00:02:12.469526",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Members",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Green",
+   "title": "Active"
+  },
+  {
+   "color": "Red",
+   "title": "Non-Active"
+  }
+ ],
+ "title_field": "full_name",
+ "track_changes": 1
+}
